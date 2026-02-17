@@ -44,7 +44,8 @@
 
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    html { scroll-behavior: smooth;
+         font-size: 16px;}
     body {
       font-family: 'DM Sans', sans-serif;
       background: var(--bg);
@@ -945,7 +946,10 @@
     .p3 { background: linear-gradient(135deg, #0d1526 0%, rgba(247,82,90,0.15) 100%); }
 
     /* RESPONSIVE */
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
+      html{
+        font-size: 10px;
+      }
       nav { padding: 18px 24px; }
       .nav-links { display: none; }
       .hamburger { display: flex; }
