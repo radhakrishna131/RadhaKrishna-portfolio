@@ -946,9 +946,15 @@
     .p3 { background: linear-gradient(135deg, #0d1526 0%, rgba(247,82,90,0.15) 100%); }
 
     /* RESPONSIVE */
+@media(max-width: 768px){
+  html{
+    font-size: 10px;}}
+  @media(max-width: 1024px){
+    html{
+      font-size: 10px;}}
     @media (max-width: 900px) {
       html{
-        font-size: 10px;
+        font-size: 14px;
       }
       nav { padding: 18px 24px; }
       .nav-links { display: none; }
