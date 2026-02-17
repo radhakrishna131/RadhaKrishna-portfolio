@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Radha Krishna | CSM Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/x-icon" href="/assets/RK.jpg">
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursorTrail"></div>
+
+<!-- Grid Background -->
+<div class="grid-bg"></div>
+
+<!-- Particles -->
+<div class="particles" id="particles"></div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-menu" id="closeMenu">✕</button>
+  <a href="#about" onclick="closeMob()">About</a>
+  <a href="#skills" onclick="closeMob()">Skills</a>
+  <a href="#projects" onclick="closeMob()">Projects</a>
+  <a href="#education" onclick="closeMob()">Education</a>
+  <a href="#contact" onclick="closeMob()">Contact</a>
+</div>
+
+<!-- Navigation -->
+<nav>
+  <a href="#" class="nav-logo">RK<span>.</span>DEV</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="toggle-btn" id="themeToggle" title="Toggle theme" aria-label="Toggle theme"></button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Social Bar -->
+<div class="socials-bar">
+  <a class="social-link" href="https://github.com/radhakrishna131" target="_blank" title="GitHub">GH</a>
+  <a class="social-link" href="https://www.linkedin.com/in/radhakrishnasure?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn">LI</a>
+  <a class="social-link" href="https://www.instagram.com/radha_krishna.2810?igsh=NWs2Z3Z0Y3J5bjc2" target="_blank" title="Instagram">IG</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="hero-tag">BTech CSM · 1st Year · 2025–2029</div>
+    <h1 class="hero-name">
+      <span class="line1">Radha</span>
+      <span class="line2" data-text="Krishna">Krishna</span>
+    </h1>
+    <div class="typewriter-wrap">Full-Stack Dev &amp; AI Enthusiast</div>
+    <p class="hero-sub" style="margin-top:20px;">
+      Building the future, one commit at a time.<br>
+      Passionate about <strong>Machine Learning</strong>, <strong>Web Dev</strong> &amp; crafting experiences that matter.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary"><span>View Projects</span></a>
+      <a href="#contact" class="btn-outline">Let's Connect</a>
+    </div>
+  </div>
+  <div class="hero-orb"></div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <div class="section-tag">01 · Who I Am</div>
+    <h2 class="section-title">About <em>Me</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-image-wrap reveal-left">
+      <div class="about-image">
+        <div class="about-image-inner">👨‍💻</div>
+        <div class="about-corner"></div>
+        <div class="about-corner-tr"></div>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="stat-num">2+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <!--<div class="stat-item">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Hackathons</div>
+        </div>-->
+        <div class="stat-item">
+          <div class="stat-num">9.0</div>
+          <div class="stat-label">CGPA</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-text reveal-right">
+      <p>Hey! I'm <strong>Radha Krishna</strong>, a first-year BTech CSM student at <strong>KITS Guntur</strong>, passionate about building intelligent systems and creating clean, intuitive digital experiences.</p>
+      <p>My journey started with a curiosity for <strong>how things work</strong> — from dismantling gadgets as a kid to now building full-stack applications and experimenting with ML models. I believe technology should solve real problems in elegant ways.</p>
+      <p>When I'm not coding, I'm probably reading tech blogs, playing chess, or contributing to open-source projects. I'm actively looking for opportunities to grow and collaborate with amazing teams.</p>
+      <a href="#contact" class="btn-primary" style="display:inline-block;margin-top:20px;"><span>Get In Touch</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <div class="section-tag">02 · What I Know</div>
+    <h2 class="section-title">Skills &amp; <em>Expertise</em></h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-icon">💻</div>
+      <h3>Languages</h3>
+      <div class="skill-bars">
+        <div class="skill-bar-item">
+          <div class="skill-bar-info"><span>Python</span><span>85%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:85%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-info"><span>JavaScript</span><span>78%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:78%"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🌐</div>
+      <h3>Web Development</h3>
+      <div class="skill-bars">
+        <div class="skill-bar-item">
+          <div class="skill-bar-info"><span>HTML &amp; CSS</span><span>90%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:90%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <div class="section-tag">03 · What I've Built</div>
+    <h2 class="section-title">Featured <em>Projects</em></h2>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-img p1">
+        <span><img src="assets/mustmaterial.png" alt="mustmaterial" style="width: 100px;
+        filter: brightness(0) saturate(100%) invert(100%) sepia(87%) saturate(0%) hue-rotate(234deg) brightness(104%) contrast(101%);"></span>
+        <div class="project-overlay">
+          <a href="https://mustmaterial.vercel.app/">Live Demo</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="project-tag">HTML 5</span>
+          <span class="project-tag">CSS3</span>
+          <span class="project-tag">JavaScript</span>
+        </div>
+        <div class="project-title">Must Material</div>
+        <p class="project-desc">​Must Material is a free online educational platform developed by a student, offering study materials and resources for 6th grade through B.Tech with instant, no-registration access</p>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-header reveal">
+    <div class="section-tag">04 · My Journey</div>
+    <h2 class="section-title">Education &amp; <em>Achievements</em></h2>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-year">2025 – Present</div>
+      <div class="timeline-title">B.Tech in Computer Science (CSM)</div>
+      <div class="timeline-place">KITs Guntur, Andhra Pradesh</div>
+      <div class="timeline-desc">B.Tech (Computer Science and Machine Learning) First-Year Student, building a strong foundation in programming, data structures, and core computer science concepts.</div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-year">2023 – 2025</div>
+      <div class="timeline-title">PCM</div>
+      <div class="timeline-place">Mahaveer Memorial Junior College, Guntur</div>
+      <div class="timeline-desc">Achieved 97.0% in MPC (Mathematics, Physics, and Chemistry), demonstrating strong analytical and problem-solving abilities.</div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header reveal">
+    <div class="section-tag">05 · Say Hello</div>
+    <h2 class="section-title">Get In <em>Touch</em></h2>
+  </div>
+  <div class="contact-wrap">
+    <div class="contact-info reveal-left">
+      <h3>Let's Build Something Great</h3>
+      <p>Whether you have a project idea, want to collaborate on something cool, or just want to talk tech — I'm always up for a conversation. Reach out!</p>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="contact-item-icon">📧</div>
+          <div class="contact-item-text">
+            <span>Email</span>
+            <span>radhakrishna628191@gmail.com</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <div class="contact-item-text">
+            <span>Location</span>
+            <span>Guntur, Andhra Pradesh, India</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">🎓</div>
+          <div class="contact-item-text">
+            <span>College</span>
+            <span>KITS Guntur · CSM · 2025–29</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">💼</div>
+          <div class="contact-item-text">
+            <span>Open To</span>
+            <span>Internships, Open Source, Projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reveal-right">
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" placeholder="sample@example.com" id="email"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" placeholder="Internship / Collaboration / Project..." />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea placeholder="Tell me about your idea or opportunity..." id="message"></textarea>
+        </div>
+        <div class="form-submit-row">
+          <button type="submit" class="btn-primary"><span>Send Message →</span></button>
+          <div class="success-msg" id="successMsg">✓ Message sent successfully!</div>
+         <div id="errorMessage" class="error-message" >
+                        Sorry, there was an error sending your message. Please try again.
+                    </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Designed &amp; built by <span>Radha Krishna</span> · 2024</p>
+  <p>BTech CSM · KITS Guntur · <span>Open to Opportunities</span></p>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
