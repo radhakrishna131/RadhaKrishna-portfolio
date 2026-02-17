@@ -460,7 +460,7 @@
       color: var(--text-muted);
       line-height: 1.9;
       margin-bottom: 20px;
-      font-size: 1.05rem;
+      font-size: 0.75rem;
     }
     .about-text p strong { color: var(--text); }
 
@@ -675,7 +675,7 @@
     }
     .contact-info h3 {
       font-family: 'Syne', sans-serif;
-      font-size: 1.5rem;
+      font-size: 1.0rem;
       font-weight: 700;
       margin-bottom: 16px;
     }
@@ -795,7 +795,7 @@
     }
     footer p {
       font-family: 'Space Mono', monospace;
-      font-size: 0.65rem;
+      font-size: 0.55rem;
       letter-spacing: 2px;
       color: var(--text-muted);
     }
@@ -948,10 +948,10 @@
     /* RESPONSIVE */
 @media(max-width: 768px){
   html{
-    font-size: 10px;}}
+    font-size: 12px;}}
   @media(max-width: 1024px){
     html{
-      font-size: 10px;}}
+      font-size: 12px;}}
     @media (max-width: 900px) {
       html{
         font-size: 14px;
