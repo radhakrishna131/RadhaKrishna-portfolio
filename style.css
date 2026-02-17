@@ -945,7 +945,7 @@
     .p3 { background: linear-gradient(135deg, #0d1526 0%, rgba(247,82,90,0.15) 100%); }
 
     /* RESPONSIVE */
-    @media (max-width: 900px) {
+    @media (max-width: 768px) {
       nav { padding: 18px 24px; }
       .nav-links { display: none; }
       .hamburger { display: flex; }
